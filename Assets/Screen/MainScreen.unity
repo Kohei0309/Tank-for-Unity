@@ -240,6 +240,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 40, y: 60, z: 0}
+--- !u!82 &737349499 stripped
+AudioSource:
+  m_PrefabParentObject: {fileID: 82269022019717104, guid: 3fc46a786c250446990a97afb5feb4ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 1935572525}
 --- !u!1001 &1935572525
 Prefab:
   m_ObjectHideFlags: 0
@@ -249,7 +254,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4232585738204796, guid: 3fc46a786c250446990a97afb5feb4ef, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: 4232585738204796, guid: 3fc46a786c250446990a97afb5feb4ef, type: 2}
       propertyPath: m_LocalPosition.y
@@ -279,6 +284,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 82269022019717104, guid: 3fc46a786c250446990a97afb5feb4ef,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114869583660446994, guid: 3fc46a786c250446990a97afb5feb4ef,
+        type: 2}
+      propertyPath: m_MovementAudio
+      value: 
+      objectReference: {fileID: 737349499}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3fc46a786c250446990a97afb5feb4ef, type: 2}
   m_IsPrefabParent: 0
