@@ -5,7 +5,7 @@ public class CameraControl : MonoBehaviour
 	public float m_DampTime = 0.2f;                 // カメラが再度フォーカスするのに必要なおおよその時間
 	public float m_ScreenEdgeBuffer = 4f;           // 最上/最下のターゲットと画面端の間のスペース
 	public float m_MinSize = 6.5f;                  // カメラに可能な最小の平行投影サイズ
-	/*[HideInInspector]*/ public Transform[] m_Targets; // カメラが含む必要のあるすべてのターゲット
+	[HideInInspector] public Transform[] m_Targets; // カメラが含む必要のあるすべてのターゲット
 
 
 	private Camera m_Camera;                        // カメラの参照に使用
